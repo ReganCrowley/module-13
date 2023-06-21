@@ -16,7 +16,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// localhost:3001/api/categories/:id
 router.get('/:id', async (req, res) => {
   try {
     const CategoryData = await Category.findByPk(req.params.id, {

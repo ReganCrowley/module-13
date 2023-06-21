@@ -4,22 +4,6 @@ const sequelize = require('../config/connection.js');
 
 class Tag extends Model { }
 
-// id
-
-// Integer
-
-// Doesn't allow null values
-
-// Set as primary key
-
-// Uses auto increment
-
-// tag_name
-
-// String
-
-
-
 Tag.init(
   {
     id: {
